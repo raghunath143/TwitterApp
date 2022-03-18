@@ -28,6 +28,21 @@
         tools:text="raghunath" />
 
     <TextView
+        android:id="@+id/tvTimestamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dp"
+        android:layout_marginStart="12dp"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/tvTweetbody"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.913"
+        app:layout_constraintStart_toEndOf="@+id/tvUsername"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="20m" />
+
+    <TextView
         android:id="@+id/tvTweetbody"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
